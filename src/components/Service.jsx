@@ -2,7 +2,7 @@ import {MdSpeed, MdAddAPhoto, MdLightbulbOutline} from 'react-icons/md'
 
 export const Service = () => {
   return (
-    <div className="w-full flex flex-col items-center py-12">
+    <div id="services" className="w-full flex flex-col items-center py-12">
         <h2 className="text-3xl font-bold ">Our Services</h2>
 
         <div className="py-8 flex flex-col text-center items-center gap-8 md:flex-row md:px-48">
