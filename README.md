@@ -15,7 +15,7 @@ npm install
 npm run dev
 ```
 ---
-### 👁️ [View Online](https://frontiago-landatech.vercel.app/)
+### 👁️ [View Online](https://landatech.vercel.app/)
 
 ---
 
