@@ -33,10 +33,10 @@ export const Navbar = () => {
             <AiOutlineClose onClick={() => setNav(!nav)} className="absolute top-10 right-10 cursor-pointer" size={30}/>
 
             <ul className="flex flex-col text-4xl gap-16">
-                <li className=""> <a href="#">Home</a> </li>
-                <li> <a href="#">Company</a> </li>
-                <li> <a href="#">Team</a> </li>
-                <li> <a href="#">Contact</a> </li>
+                <li onClick={() => setNav(false)}> <Link to="/">Home</Link> </li>
+                <li onClick={() => setNav(false)}> <Link to="/company">Company</Link> </li>
+                <li onClick={() => setNav(false)}> <Link to="/team">Team</Link> </li>
+                <li onClick={() => setNav(false)}> <Link to="/contact">Contact</Link> </li>
             </ul>
         </div>
 
