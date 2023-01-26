@@ -1,13 +1,13 @@
-import {Hero} from '../components/Hero'
-import {Service} from '../components/Service'
-import Testimonial from '../components/Testimonial'
+import {HomeHero} from '../components/home/HomeHero'
+import {HomeService} from '../components/home/HomeService'
+import {HomeTestimonial} from '../components/home/HomeTestimonial'
 
 export const Home = () => {
   return (
     <>
-      <Hero />
-      <Testimonial />
-      <Service />
+      <HomeHero />
+      <HomeTestimonial />
+      <HomeService />
     </>
   )
 }

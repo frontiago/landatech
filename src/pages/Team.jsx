@@ -1,9 +1,9 @@
-import {HeroTeam} from '../components/HeroTeam'
+import {TeamHero} from '../components/team/TeamHero'
 
 export const Team = () => {
   return (
     <>
-      <HeroTeam />
+      <TeamHero />
     </>
   )
 }

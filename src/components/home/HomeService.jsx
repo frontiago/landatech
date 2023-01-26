@@ -1,6 +1,6 @@
 import {MdSpeed, MdAddAPhoto, MdLightbulbOutline} from 'react-icons/md'
 
-export const Service = () => {
+export const HomeService = () => {
   return (
     <div id="services" className="w-full flex flex-col items-center py-12">
         <h2 className="text-3xl font-bold ">Our Services</h2>

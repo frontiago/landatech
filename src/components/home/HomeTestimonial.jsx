@@ -1,6 +1,6 @@
 const imgUrl = 'https://randomuser.me/api/portraits/men/42.jpg'
 
-const Testimonial = () => {
+export const HomeTestimonial = () => {
   return (
     <div className="w-full px-12 py-12 md:px-64 md:pt-4 md:pb-12 flex flex-col md:flex-row font-poppins border-b-2 border-indigo-200 md:items-center">
 
@@ -20,5 +20,3 @@ const Testimonial = () => {
     </div>
   )
 }
-
-export default Testimonial
