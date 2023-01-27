@@ -24,7 +24,7 @@ export const Navbar = () => {
             <li className="hover:text-blue-800 font-bold"> <Link to="/contact">Contact</Link> </li>
         </ul>
 
-        <AiOutlineMenu onClick={() => setNav(!nav)} className="text-3xl cursor-pointer md:hidden" />
+        <AiOutlineMenu onClick={() => setNav(!nav)} className="text-3xl cursor-pointer md:hidden absolute right-10" />
 
         {/* Menu mobile */}
         <div className={nav ? 'fixed top-0 left-0 right-0 w-full h-screen bg-blue-500 flex flex-col justify-center items-center duration-300 z-20' : 
