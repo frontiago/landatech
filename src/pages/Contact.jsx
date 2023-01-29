@@ -1,9 +1,11 @@
-import {ContactHero} from '../components/contact/ContactHero'
+import {ContactHeader} from '../components/contact/ContactHeader'
+import {ContactDescription} from '../components/contact/ContactDescription'
 
 export const Contact = () => {
   return (
     <>
-      <ContactHero />
+      <ContactHeader />
+      <ContactDescription />
     </>
   )
 }

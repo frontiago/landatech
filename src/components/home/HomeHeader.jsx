@@ -1,5 +1,5 @@
 
-export const HomeHero = () => {
+export const HomeHeader = () => {
   return (
     <div className="w-full h-[60%] bg-gradient-to-r from-blue-200  to-blue-400 flex flex-col font-poppins md:justify-start md:py-28 relative">
 
