@@ -22,8 +22,8 @@ export const CompanyDescription = () => {
 
         <div className="flex flex-col text-left min-h-[250px] gap-8 mb-12 md:flex-row-reverse">
           <div className="flex flex-1 flex-col gap-12">
-            <p className="text-xl text-slate-600 md:text-2xl">We are Landatech and we have many years of experience in software development, extremely professional, no delays, and we use the best and the fastest technologies to achieve the client goals.</p>
-            <p className="text-xl text-slate-600 md:text-2xl">Also our team uses the best methodologies to bring your project to life in record time.</p>
+            <p className="text-xl text-slate-600 md:text-2xl">Located in Brazil, our office has enough space to bring confort to our clients, join us for a coffe and let's build a strong relationship and bring ideas to life.</p>
+            <p className="text-xl text-slate-600 md:text-2xl">Our collaborators are well trained and highly professional, we build a strong team through the years of experience in software development.</p>
           </div>
 
           <div className="flex flex-1 flex-col gap-12">
