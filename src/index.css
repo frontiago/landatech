@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+
+    * {
+        @apply font-poppins
+    }
+    
+    body {
+        @apply bg-slate-100
+    }
+}

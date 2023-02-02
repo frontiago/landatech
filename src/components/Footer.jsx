@@ -16,7 +16,7 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-1 flex-col my-16 items-center">
-            <h3 className="text-cyan-400 mb-3">Follow Us</h3>
+            <h3 className="text-cyan-400 mb-6">Follow Us</h3>
             <ul className="flex gap-8">
                 <li><a href="#instagram"> <SiInstagram size={32} color="#fff" /> </a></li>
                 <li><a href="#facebook"> <SiFacebook size={32} color="#fff" /> </a></li>
@@ -29,7 +29,7 @@ export const Footer = () => {
         <div className="flex flex-1 flex-col gap-1 items-center text-white md:mr-12">
             <MdDesktopMac size={20} />
             <h1 className="text-xl"> 
-                Landa<span className="font-bold text-slate-300">Tech</span> 
+                <Link to="/"> Landa <span className="font-bold text-slate-300">Tech</span>  </Link>
             </h1>
             <p className="text-slate-400 text-center">Digital solutions for your company</p>
         </div>

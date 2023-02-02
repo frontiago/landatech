@@ -14,7 +14,7 @@ export const HomeHeader = () => {
             <a href="#services"className="w-full h-12 text-2xl font-bold bg-blue-800 text-white py-2 px-4 rounded-2xl md:w-80 hover:bg-blue-600">See Our Services</a>
         </div>
 
-        <div className="md:absolute right-0 top-0 w-[60%] h-full bg-office bg-blend-color-dodge bg-no-repeat bg-cover bg-right md:opacity-[15%] ">
+        <div className="md:absolute right-0 top-0 w-[100%] h-full bg-office bg-blend-color-dodge bg-no-repeat bg-cover bg-right md:opacity-[15%] ">
           <div className="w-[20px] h-full bg-gradient-to-l from-blue-100 to-blue-200 opacity-30">
 
           </div>

@@ -13,7 +13,7 @@ export const Navbar = () => {
         <div className="flex items-center gap-2 font-poppins">
             <MdDesktopMac size={23} />
             <h1 className="text-2xl"> 
-                Landa<span className="font-bold text-blue-900">Tech</span> 
+                 <Link to="/"> Landa <span className="font-bold text-blue-900">Tech</span>  </Link> 
             </h1>
         </div>        
 
