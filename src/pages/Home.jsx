@@ -1,12 +1,12 @@
 import {HomeHeader} from '../components/home/HomeHeader'
 import {HomeService} from '../components/home/HomeService'
-import {HomeTestimonial} from '../components/home/HomeTestimonial'
+import {HomeStats} from '../components/home/HomeStats'
 
 export const Home = () => {
   return (
     <>
       <HomeHeader />
-      <HomeTestimonial />
+      <HomeStats />
       <HomeService />
     </>
   )
