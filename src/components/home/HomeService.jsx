@@ -9,12 +9,12 @@ export const HomeService = () => {
             
             <div className="flex flex-1 flex-col gap-2 items-center px-12 py-6 md:px-12">
                 <MdSpeed size={110} color="#4338ca"/>
-                <h3 className="font-bold">Fast and beautiful websites</h3>
-                <p>Impact your audience with beautiful webpages that loads fast.</p>
+                <h3 className="font-bold">Beautiful websites</h3>
+                <p>Impact your audience with beautiful and fast webpages.</p>
             </div>
 
             <div className="flex flex-1 flex-col gap-2 items-center px-12 py-6 md:px-12">
-                <MdAddAPhoto size={110} color="#4338ca"/>
+                <MdAddAPhoto size={100} color="#4338ca"/>
                 <h3 className="font-bold">Coolest designs</h3>
                 <p>From your logo to your website, everything you need is here.</p>
             </div>

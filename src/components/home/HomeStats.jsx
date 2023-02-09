@@ -1,4 +1,4 @@
-const imgUrl = 'https://randomuser.me/api/portraits/men/42.jpg'
+import {Link} from 'react-router-dom'
 
 export const HomeStats = () => {
   return (
@@ -22,7 +22,9 @@ export const HomeStats = () => {
 
         <p>Still not convinced how professional we are?</p>
 
-        <a href="#"className="mt-4 w-full text-xl font-bold bg-blue-800 text-white py-2 px-2 rounded-2xl hover:bg-blue-600 md:w-[200px] text-center">Contact Us</a>
+        <Link to="/contact">
+          <button className="mt-4 w-full text-xl font-bold bg-blue-800 text-white py-2 px-2 rounded-2xl hover:bg-blue-600 md:w-[200px] text-center"> Contact Us </button>
+        </Link>
         
       </div>
 
