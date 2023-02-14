@@ -46,8 +46,8 @@ export const ContactDescription = () => {
               <input className="w-full p-4 border-2 border-indigo-200 rounded-2xl text-xl placeholder:text-indigo-400" 
               type="text" placeholder="Subject:" name="user_subject" required/>
 
-              <input className="w-full h-[250px] p-4 border-2 border-indigo-200 rounded-2xl text-xl placeholder:text-indigo-400" 
-                type="textarea" placeholder="Message:" name="user_message" required/>
+              <textarea className="w-full h-[250px] p-4 border-2 border-indigo-200 rounded-2xl text-xl placeholder:text-indigo-400" 
+                type="textarea" placeholder="Message:" name="user_message" required></textarea>
             
               <button className="py-4 px-8 w-[200px] text-white bg-indigo-600 rounded-2xl">SEND EMAIL</button>
           </div>
