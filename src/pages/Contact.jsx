@@ -1,10 +1,10 @@
-import {ContactHeader} from '../components/contact/ContactHeader'
+import {HeaderTitle} from '../components/HeaderTitle'
 import {ContactDescription} from '../components/contact/ContactDescription'
 
 export const Contact = () => {
   return (
     <>
-      <ContactHeader />
+      <HeaderTitle title="Contact Us" />
       <ContactDescription />
     </>
   )

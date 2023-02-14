@@ -1,10 +1,10 @@
-import {CompanyHeader} from '../components/company/CompanyHeader'
+import {HeaderTitle} from '../components/HeaderTitle'
 import {CompanyDescription} from '../components/company/CompanyDescription'
 
 export const Company = () => {
   return (
     <>
-      <CompanyHeader />
+      <HeaderTitle title="The Company" />
       <CompanyDescription />
     </>
   )
